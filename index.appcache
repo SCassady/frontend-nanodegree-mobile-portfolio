@@ -1,6 +1,8 @@
 CACHE MANIFEST
 # 2017-01-19:v1
 
+index.html
+
 # Explicitly cached 'master entries'.
 CACHE:
 css/style.css
