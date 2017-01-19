@@ -1,0 +1,19 @@
+CACHE MANIFEST
+# 2017-01-19:v1
+
+# Explicitly cached 'master entries'.
+CACHE:
+css/style.css
+css/print.css
+css/portrait.css
+img/2048thumbsmall.jpg
+img/mobilethumbsmall.jpg
+img/pizzathumb1ksmall.jpg
+img/profilepicsmall.jpg
+img/wpothumbsmall.jpg
+js/perfmatters.js
+http://www.google-analytics.com/analytics.js
+
+# Resources that require the user to be online.
+NETWORK:
+*
