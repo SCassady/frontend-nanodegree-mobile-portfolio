@@ -61,8 +61,22 @@
         body { font-size: 12px;}
         header p { padding-left: 4.5em;}
     </style>
-    
+
     <link href="css/print.css" rel="stylesheet" media="print">
+
+    <script>
+        WebFontConfig = {
+         google: { families: [ 'Open+Sans:400,700:latin'] }
+        };
+
+        (function(d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+          wf.async = true;
+          s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+
     <!-- <link href="css/portrait.css" rel="stylesheet" media="screen and (max-width: 480px)"> -->
 
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
