@@ -22,6 +22,11 @@ form {
   display: inline-block;
 }
 
+.container {
+ background-color: rgba(240, 60, 60, 0.8);
+ z-index: -1;
+}
+
 .centered {
   text-align: center;
 }
@@ -45,9 +50,4 @@ form {
   content: "";
   display: table;
   clear:both;
-}
-
- .container {
-  background-color: rgba(240, 60, 60, 0.8);
-  z-index: -1;
 }
