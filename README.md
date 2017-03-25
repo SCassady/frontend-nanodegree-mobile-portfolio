@@ -8,7 +8,7 @@ Udacity Front-End Nanodegree.
 ## Viewing/Installation :
 
 To view the portfolio, do one of the following:
-- To install and view the portfolio locally, clone or download this repository and open index.html in the /dist directory. 
+- To install and view the portfolio locally, clone or download this repository and open index.html in the /dist directory.
 - To simply view the project, you can see it hosted on Github Pages [here](https://scassady.github.io/frontend-nanodegree-mobile-portfolio/).
 
 ## Optimizations
@@ -25,9 +25,9 @@ To improve the PageSpeed score, I did the following:
 
 ### Part 2: Optimize fps for views/pizza.html while scrolling.
 
-To achieve over 60fps while scrolling, I made the following optimizations:
+To achieve over 60fps while scrolling, I made the following optimizations to updatePositions:
 
-- Pulled the call to document.body.scrollTop out of the for loop, so the updatePositions function only triggers layout once per call, and so avoids many instances of forced synchronous layout.
+- Pulled the call to document.body.scrollTop out of the for loop, so the function only triggers layout once per call, and so avoids many instances of forced synchronous layout.
 
 ### Part 3: Reduce resize time for pizzas with pizza size slider in views/pizza.html.
 
