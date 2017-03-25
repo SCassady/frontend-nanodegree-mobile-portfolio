@@ -5,11 +5,13 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -box-sizing: border-box;
+  z-index: 1;
 }
 
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: black;
+  z-index: -1;
 }
 
 input {
@@ -32,7 +34,7 @@ form {
 .mover {
   position: fixed;
   width: 256px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .randomPizzaContainer {
