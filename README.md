@@ -13,7 +13,7 @@ To view the web application, do one of the following:
 
 ## Optimizations
 
-#### Part 1: Optimize PageSpeed Insights score for index.html
+### Part 1: Optimize PageSpeed Insights score for index.html
 
 To improve the PageSpeed score, I did the following:
 - Reduced size and applied compression to all images on the page.
