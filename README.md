@@ -7,8 +7,8 @@ Udacity Front-End Nanodegree.
 
 ## Viewing/Installation :
 
-To view the web application, do one of the following:
-- To install and view the app locally, clone or download this repository and open index.html in the /dist directory. An internet connection is required for viewing as the application sends several API requests.
+To view the portfolio, do one of the following:
+- To install and view the portfolio locally, clone or download this repository and open index.html in the /dist directory. 
 - To simply view the project, you can see it hosted on Github Pages [here](https://scassady.github.io/frontend-nanodegree-mobile-portfolio/).
 
 ## Optimizations
