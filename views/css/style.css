@@ -10,7 +10,6 @@
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: black;
-  z-index: -3 !important;
 }
 
 input {
@@ -24,7 +23,6 @@ form {
 
 .container {
  background-color: rgba(240, 60, 60, 0.8);
- z-index: -1 !important;
 }
 
 .centered {
@@ -35,14 +33,10 @@ form {
   font-weight: 800;
 }
 
-#header, #calltoAction, #ingredients, #locations, #pizzaGenerator, #footer {
-  z-index: 0 !important;
-}
-
 .mover {
   position: fixed;
   width: 256px;
-  z-index: -2 !important;
+  z-index: -1;
 }
 
 .randomPizzaContainer {
